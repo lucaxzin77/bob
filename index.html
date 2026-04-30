@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BOB</title>
+    <link rel="shortcut icon" href="https://img.freepik.com/vetores-premium/desenho-de-ovo-de-galinha-png_490098-3133.jpg?semt=ais_hybrid&w=740&q=80" type="image/x-icon">
 </head>
 <style>
     body{
@@ -14,7 +15,7 @@
         color: transparent;
         background-image: linear-gradient(#f82929, #28a6af, #ff0080, #96e700);
         background-clip: text;
-        font-size: 70px;
+        font-size: clamp(30px, 2vw, 80px);
         margin: 0;
     }
 
@@ -28,10 +29,17 @@
     }
 
     img {
+        margin-top: 20px;
         border: 2px solid black;
         border-radius: 10px;
         width: 30vw;
         box-shadow: 10px 15px 30px 0 black;
+        transition: all .3s;
+    }
+
+    img:hover{
+        transform: scale(1.05);
+
     }
 
     .text{
@@ -40,10 +48,15 @@
     }
 
     p{
-        font-size: 70px;
+        font-size: clamp(30px, 2vw, 80px);
         padding: 0;
         margin: 0;
         margin-left: 10px;
+    }
+
+    .text2 {
+        margin-top: 20px;
+        font-size: clamp(20px, 2vw, 48px);
     }
 </style>
 <body>
@@ -52,10 +65,10 @@
             <h1>BOB DOS OVÃO</h1>
             <p>🥚</p>
         </div>
-        <a href="https://wa.me/5515996890490">
+        <a href="https://instagram.com/maarixy">
             <img src="https://pbs.twimg.com/media/HFlxnG6akAABvkl.jpg">
         </a>
-        <p>Clique aqui ☝</p>
+        <p class="text2">Clique aqui ☝</p>
     </div>
 </body>
 </html>
